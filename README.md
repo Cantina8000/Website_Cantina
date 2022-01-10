@@ -1,4 +1,4 @@
-# Ressource: TESTETSTSTTSTSTTS
+# Ressource:
 
 ## Betjening af CANTINA-sitets indhold
 
