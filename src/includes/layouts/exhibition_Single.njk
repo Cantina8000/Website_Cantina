@@ -1,0 +1,149 @@
+{% extends "base.njk" %}
+
+{% block mainContent %}
+
+  <div class='insideCol'>
+
+    <!-- GRID -->
+    <div class="Grid Grid--gutters Grid--full large-Grid--fit">
+
+      <!-- left col -->
+      <div class="Grid-cell">
+        <p><img src='{{ imgUrl }}'/></p>
+        <h2>{{ title }}</h2>
+        {{ content | safe }}
+        <!-- <div class='backToArrow'><a href='/exhibitions'>&larr; tilbage</a></div> -->
+      </div>
+    </div>
+
+    <!-- gallery -->
+    {% if gallery.length %}
+      <div class="Grid Grid--gutters Grid--full large-Grid--fit">
+        <div class='Grid-cell'>
+          <div class='galleryWrapper'>
+            {% for img in gallery %}
+              <div class='imgWrap'>
+                <img src='{{ img.url }}' alt='{{ img.text }}' title='{{ img.text }}'/>
+                {% if img.text %}<div class='caption'>{{ img.text }}</div>{% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    
+
+    <!-- lightbox -->
+    {% if lightbox.length %}
+      <div class='lightboxWrapper'>
+        {% for img in lightbox %}
+          <a href="{{ img.url }}" data-mediabox="{{ title }} gallery" data-title="{{ img.text }}">
+            <img src="{{ img.url }}" alt="{{ img.text }}" />
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}    
+
+
+  </div> <!-- eof grid -->
+<!-- slideshow, swiperjs-->
+    {% if slideshow1.length %}
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {% for img in slideshow1 %}
+            <div class="swiper-slide"><img src='{{ img }}' /></div>
+          {% endfor %}
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    {% endif %}
+  
+
+<!-- slideshow, swiperjs-->
+    {% if slideshow2.length %}
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {% for img in slideshow2 %}
+            <div class="swiper-slide"><img src='{{ img }}' /></div>
+          {% endfor %}
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    {% endif %}
+
+<!-- slideshow, swiperjs-->
+    {% if slideshow3.length %}
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {% for img in slideshow3 %}
+            <div class="swiper-slide"><img src='{{ img }}' /></div>
+          {% endfor %}
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    {% endif %}
+
+  
+<!-- slideshow, swiperjs-->
+    {% if slideshow4.length %}
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {% for img in slideshow4 %}
+            <div class="swiper-slide"><img src='{{ img }}' /></div>
+          {% endfor %}
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    {% endif %}
+
+
+<!-- slideshow, swiperjs-->
+    {% if slideshow5.length %}
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {% for img in slideshow5 %}
+            <div class="swiper-slide"><img src='{{ img }}' /></div>
+          {% endfor %}
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    {% endif %}
+
+<!-- slideshow, swiperjs-->
+    {% if slideshow6.length %}
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {% for img in slideshow5 %}
+            <div class="swiper-slide"><img src='{{ img }}' /></div>
+          {% endfor %}
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    {% endif %}
+
+{% endblock mainContent %}

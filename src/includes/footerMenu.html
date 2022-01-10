@@ -1,0 +1,46 @@
+<footer>
+
+  <!-- menu -->
+  <div class="Grid Grid--gutters Grid--full large-Grid--fit">
+    <div class='Grid-cell'>
+      {{ collections.all | eleventyNavigation | eleventyNavigationToHtml({
+        listElement: "ul",
+        listItemElement: "li",
+        listClass: "footerNav",
+        listItemClass: "listItem",
+        listItemHasChildrenClass: "hasChildren",
+        activeListItemClass: "active",
+        anchorClass: "anchor",
+        activeAnchorClass: "activeAnchor",
+        activeKey: eleventyNavigation.key,
+        showExcerpt: false
+      }) | safe }}
+
+      <div class='menuSpacer'>&nbsp;</div>
+
+      <ul class='footerIcons'>
+        <li><a href="http://corporum.dk/" target='_blank'><img src='/assets/images/logoer/CorporumCircle.png' class='iconLogo'/></a></li>
+        <li><a href="https://www.instagram.com/cancancantina/" target='_blank'><img src='/assets/images/logoer/instagram-brands.svg' class='iconLogo'/></a></li>
+        <li><a href="https://www.facebook.com/cancancantina" target='_blank'><img src='/assets/images/logoer/facebook-f-brands.svg' class='iconLogo'/></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- a bar more -->
+  <div class='footerBar'></div>
+
+  <!-- support -->
+  <div class="Grid Grid--gutters Grid--full large-Grid--fit">
+    <div class='Grid-cell grey'>      
+      <p>
+        <!-- <img src='/assets/images/Logo.png' class='cantinaLogo'/>&nbsp;
+        is supported by&nbsp;&nbsp; -->
+        <!-- <p>Cantina is supported by</p> -->
+        <a href='https://kirsten-gunnar-fonden.dk/' target='_blank'><img src='/assets/images/logoer/KirstenOgGunnar.png' alt='Kirsten og Gunnar Fonden' class='supportLogo'/></a>
+        <a href='https://www.aarhus.dk/' target='_blank'><img src='/assets/images/logoer/AarhusKommTall.png' alt='Aarhus Kommune' class='supportTallLogo'/></a>
+        <a href='https://www.kunst.dk/' target='_blank'><img src='/assets/images/logoer/StatensKunstfond.png' alt='Statens Kunstfond / Danish Arts Foundation' class='supportTallLogo'/></a>
+      </p>
+    </div>
+  </div>
+
+</footer>

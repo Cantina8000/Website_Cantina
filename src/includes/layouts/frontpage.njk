@@ -1,0 +1,61 @@
+{% extends "base.njk" %}
+
+{% block mainContent %}
+
+  <!-- bg -->
+  <div class='bgWrapper'></div>
+
+  <div class='programWrapper'>
+    {% for prog in collections.currentProgram %}
+      <a href='{{ prog.data.link }}'><img src='{{ prog.data.plakat }}' alt='{{ prog.data.title }}' title='{{ prog.data.title }}'/></a>
+    {% endfor %}
+  </div>
+
+  {# content | safe #}
+<!-- grid, upcoming program items -->
+      <div class="belowProgramWrapper">
+        <div class='insideCol'>
+        <h2 class='centered'>Upcoming</h2>
+        <div style="text-align:center;"><div class="Grid Grid--gutters Grid--full large-Grid--fit">
+          <div class="Grid-cell">
+            {% for prog in collections.upcomingProgram | reverse %}
+              <div class='prog'>
+                <h3><a href='{{ prog.data.link }}'>{{ prog.data.title }}</a> &rarr;</h3>
+                <!--<h3>{{ prog.data.title }}</h3>-->
+               
+              
+                {{ prog.data.content | safe }}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      </div>
+  
+  <!-- øvrige program-punkter herunder?? -->
+  <div class='belowProgramWrapper'>
+
+    <div class='insideCol'>
+
+      <!-- overskrift -->
+       <div class="Grid Grid--gutters Grid--full large-Grid--fit"> 
+        <div class="Grid-cell">
+          
+         
+          
+          <div style="text-align:center;">
+          <h3 class='centered'>DE_CANTINA</h3>
+          <p> 13/11-12/12 2021 </p>
+          <p> Aske Thiberg </p>
+          <p> Line Finderup Larsen </p>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div> <!-- eof insideColumn -->
+
+  </div> <!-- eof belowProgramWrapper -->
+
+{% endblock mainContent %}

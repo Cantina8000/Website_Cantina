@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CANTINA</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="CANTINA er et kunstnerdrevet udstillingssted drevet af medlemmer af atelierfællesskabet Corporum.
+CANTINA er baseret i lokaler på Godsbanen i Aarhus C. / CANTINA is an artist-run exhibition space run by members of the studio community Corporum. CANTINA is based on Godsbanen in Aarhus C.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta property="og:title" content="CANTINA" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cancancantina.xyz" />
+  <meta property="og:image" content="https://cancancantina.xyz/cantina.jpg" />
+  <link rel="icon" href="/assets/images/favicon.png" sizes="128x128" type="image/png">
+  <script src='/assets/js/functions.js'></script>
+  <!-- <script src='/assets/js/newMasonry.js'></script> -->
+  <!-- <link href='/assets/js/wa-mediabox.min.js' /> -->
+  <script src='/assets/js/wa-mediabox.js'></script>
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+  <script src="/assets/js/swiper-bundle.min.js"></script>  
+  <!-- <link href="/assets/css/newMasonry.css" rel="stylesheet" /> -->
+  <link href="/assets/css/normalize.css" rel="stylesheet" />
+  <link href="/assets/css/Grid.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+  <link href='/assets/css/wa-mediabox.css' rel="stylesheet" />
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  
+  <!-- swiper -->
+  
+</head>
+
+<body>
+  <div id="pageWrapper">
+
+    {% include "menu.html" %}
+    {% block mainContent %}{{ content | safe }}{% endblock mainContent %}
+    {% include "footerMenu.html" %}
+
+  </div>
+
+  <!-- scripts -->
+
+  <script>
+    // all is loaded
+    window.addEventListener("DOMContentLoaded", function() {
+
+
+      // nav icon click listener
+      const navIcon = document.getElementById("navIconBtn");
+      navIcon.addEventListener('click', function(e) {
+        e.preventDefault();
+        const docHeight = getDocHeight();
+        console.log("docHeight:", docHeight);
+        scrollToX(docHeight);
+      })
+
+      // Translate - set before any binding
+      /*
+      WAMediaBox.lang = {
+        prev: "Previous",
+        next: "Next",
+        close: "Close",
+        openInNew: "Open in new window"
+      };
+      */
+
+      var swiper = new Swiper('.swiper-container', {
+        direction: 'horizontal', // 'vertical',
+        loop: true,
+
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'fraction',
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+      /*
+      const swiper = new Swiper('.swiper-container', {
+        // Optional parameters
+        direction: 'vertical', // 'horisontal', // 'vertical',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      });
+      */
+
+
+      // put class and target on external links
+      linkopener(true);
+
+    })
+  </script>
+</body>
+
