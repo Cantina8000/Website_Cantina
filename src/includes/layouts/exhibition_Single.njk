@@ -2,7 +2,7 @@
 
 {% block mainContent %}
 
-  <div class='insideCol'>
+  <!-- <div class='insideCol'> -->
 
     <!-- GRID -->
     <div class="Grid Grid--gutters Grid--full large-Grid--fit">
@@ -32,8 +32,7 @@
       </div>
     {% endif %}
 
-    
-
+  
     <!-- lightbox -->
     {% if lightbox.length %}
       <div class='lightboxWrapper'>
@@ -45,9 +44,10 @@
       </div>
     {% endif %}    
 
+  <!-- </div> --> <!-- eof grid -->
 
-  </div> <!-- eof grid -->
-<!-- slideshow, swiperjs-->
+
+  <!-- slideshow, swiperjs-->
     {% if slideshow1.length %}
       <div class="swiper-container">
         <div class="swiper-wrapper">

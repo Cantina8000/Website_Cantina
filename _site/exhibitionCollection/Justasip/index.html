@@ -47,7 +47,7 @@ CANTINA er baseret i lokaler på Godsbanen i Aarhus C. / CANTINA is an artist-ru
 </header>
     
 
-  <div class='insideCol'>
+  <!-- <div class='insideCol'> -->
 
     <!-- GRID -->
     <div class="Grid Grid--gutters Grid--full large-Grid--fit">
@@ -81,14 +81,14 @@ The exhibition is curated by curator and artist Anna Bak.</p>
     <!-- gallery -->
     
 
-    
-
+  
     <!-- lightbox -->
         
 
+  <!-- </div> --> <!-- eof grid -->
 
-  </div> <!-- eof grid -->
-<!-- slideshow, swiperjs-->
+
+  <!-- slideshow, swiperjs-->
     
       <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -224,33 +224,11 @@ The exhibition is curated by curator and artist Anna Bak.</p>
         },
       });
 
-      /*
-      const swiper = new Swiper('.swiper-container', {
-        // Optional parameters
-        direction: 'vertical', // 'horisontal', // 'vertical',
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
-      });
-      */
-
-
       // put class and target on external links
       linkopener(true);
+
+      // make videos responsive
+      respVideo();
 
     })
   </script>

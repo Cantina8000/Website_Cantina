@@ -1,4 +1,39 @@
 ///////////////////////////////////////////////////////////////
+// insert node after current node
+// https://stackoverflow.com/questions/4793604/how-to-insert-an-element-after-another-element-in-javascript-without-using-a-lib
+function insertAfter(newNode, referenceNode) {
+  referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+
+///////////////////////////////////////////////////////////////
+const respVideo = () => {
+
+  const vids = document.querySelectorAll('iframe');
+  console.log("vids:", vids);
+
+  for (let i = 0; i < vids.length; i++) {
+
+    console.log("vids[i]:", vids[i]);
+
+    console.log(vids[i].width);
+    console.log(vids[i].height);
+
+    const ratio = (vids[i].height / vids[i].width) * 100;
+    console.log("ratio:", ratio);
+
+    // build a wrapper
+    const wrapper = document.createElement('div');
+    wrapper.classList.add("videoWrapper");
+    wrapper.style = `padding-bottom: ${ratio}%; background: #222`;
+
+    insertAfter(wrapper, vids[i]);
+    wrapper.appendChild(vids[i]);
+  }
+
+}
+
+///////////////////////////////////////////////////////////////
 // making external links:
 // https://stackoverflow.com/questions/55891160/how-to-add-an-icon-automatically-to-every-blank-link
 function linkopener(a) {

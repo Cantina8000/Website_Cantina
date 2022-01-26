@@ -59,32 +59,36 @@ slideshow1:
 - '/assets/images/udstillingerStoreBilleder/DE_CANTINA/de_cantina0090103.jpg'
 ---
 
-<b>Opening:</b> Saturday November 13 2021, 12 PM - 4 PM <br>
-**Exhibition period:** November 13 - December 12 2021 <br>
-__Opening hours:__ By appointment and online at COUNTER-STRIKE: GLOBAL OFFENSIVE on the server DE_CANTINA_OFFICIAL<br><br>
 
-
-The exhibition DE_CANTINA is located in the computer game COUNTER-STRIKE: GLOBAL OFFENSIVE on a server named "DE_CANTINA_OFFICIAL". The exhibition can also be experienced through physical documentation at Cantina's premises on Godsbanen.
-<br><br>
-Cantina's concrete architecture and surroundings have been recreated as a playable 3D map named DE_CANTINA in the popular e-sports COUNTER STRIKE: GLOBAL OFFENSIVE. DE_CANTINA functions as an exhibition space while being played like any other CS:GO MAP with conditions dictated by the rules of COUNTER-STRIKE: GLOBAL OFFENSIVE.
-<br><br>
-Counter-Strike: Global Offensive (often abbreviated CS: GO) is a tactical online first-person shooter game. Each team (of 5 players) starts at each end of a map. The teams have different roles, one team (the terrorists) must try to fight the counter terrorists and get the bomb planted. The other team plays as counter terrorists (police) and must try to defeat the terrorists and dismantle the bomb. Each match consists of up to 30 rounds. The team that reaches a win of 16 rounds first will win the game.
+<div class="insideCol">
+    <b>Opening:</b> Saturday November 13 2021, 12 PM - 4 PM <br>
+    **Exhibition period:** November 13 - December 12 2021 <br>
+    __Opening hours:__ By appointment and online at COUNTER-STRIKE: GLOBAL OFFENSIVE on the server DE_CANTINA_OFFICIAL<br><br>
+    The exhibition DE_CANTINA is located in the computer game COUNTER-STRIKE: GLOBAL OFFENSIVE on a server named "DE_CANTINA_OFFICIAL". The exhibition can also be experienced through physical documentation at Cantina's premises on Godsbanen.
+    <br><br>
+    Cantina's concrete architecture and surroundings have been recreated as a playable 3D map named DE_CANTINA in the popular e-sports COUNTER STRIKE: GLOBAL OFFENSIVE. DE_CANTINA functions as an exhibition space while being played like any other CS:GO MAP with conditions dictated by the rules of COUNTER-STRIKE: GLOBAL OFFENSIVE.
+    <br><br>
+    Counter-Strike: Global Offensive (often abbreviated CS: GO) is a tactical online first-person shooter game. Each team (of 5 players) starts at each end of a map. The teams have different roles, one team (the terrorists) must try to fight the counter terrorists and get the bomb planted. The other team plays as counter terrorists (police) and must try to defeat the terrorists and dismantle the bomb. Each match consists of up to 30 rounds. The team that reaches a win of 16 rounds first will win the game.
+</div>
 
 <br><br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/22g2PJg0B6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br><br>
-At DE_CANTINA, the artists Aske Thiberg and Line Finderup Jensen exhibit works that revolve around themes such as; the nostalgia that can be associated with computer games, the dichotomy between the good and the bad, the gamer as an executant, puppies and much more.
-<br><br><br>
 
-### Bio
-<a target="_blank" href="https://askethiberg.com" >Aske Thiberg</a> 
- (b. 1994) is a Danish / Swedish artist who lives and works in Copenhagen. He works primarily with performance, text and 3D animated film, where fictional characters explore and portray topics such as loneliness and aggression. Among other things, Thiberg has participated in group exhibitions at Kunsthal Oslo, Copenhagen Contemporary, Nikolaj Kunsthal and Den frie Udstillingsbygning. He has made solo exhibitions on M100 and the exhibition space Sydhavn Station, and won the talent award at Charlottenborg's spring exhibition 2021. Thiberg is also one of ten artists running Udstillingsstedet Sydhavn Station. 
-<br><br>
-<a target="_blank" href="https://www.linefj.com" >Line Finderup Jensen</a> (* 1991 / Denmark) works and lives between Copenhagen and Vienna. With a background in video and animation from Akademie der bildende Künste Wien (2019), she works as an artist and freelancer in film, 3D simulation and interactive video. Her work has been shown internationally in solo and group exhibitions as well as screened at film festivals. 
-<br><br>
+<div class="insideCol">
+    At DE_CANTINA, the artists Aske Thiberg and Line Finderup Jensen exhibit works that revolve around themes such as; the nostalgia that can be associated with computer games, the dichotomy between the good and the bad, the gamer as an executant, puppies and much more.
+    <br><br><br>
+    <h3>Bio</h3>
+    <a target="_blank" href="https://askethiberg.com" >Aske Thiberg</a> 
+    (b. 1994) is a Danish / Swedish artist who lives and works in Copenhagen. He works primarily with performance, text and 3D animated film, where fictional characters explore and portray topics such as loneliness and aggression. Among other things, Thiberg has participated in group exhibitions at Kunsthal Oslo, Copenhagen Contemporary, Nikolaj Kunsthal and Den frie Udstillingsbygning. He has made solo exhibitions on M100 and the exhibition space Sydhavn Station, and won the talent award at Charlottenborg's spring exhibition 2021. Thiberg is also one of ten artists running Udstillingsstedet Sydhavn Station. 
+    <br><br>
+    <a target="_blank" href="https://www.linefj.com" >Line Finderup Jensen</a> (* 1991 / Denmark) works and lives between Copenhagen and Vienna. With a background in video and animation from Akademie der bildende Künste Wien (2019), she works as an artist and freelancer in film, 3D simulation and interactive video. Her work has been shown internationally in solo and group exhibitions as well as screened at film festivals. 
+    <br><br>
+</div>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/axMcOAHXBtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br><br>
-The exhibition is kindly supported by Kirsten & Gunnar Foundation, Aarhus Municipality and Statens Kunstfond
 
- 
- 
+<div class="insideCol">
+    <br><br>
+    The exhibition is kindly supported by Kirsten & Gunnar Foundation, Aarhus Municipality and Statens Kunstfond
+</div>
